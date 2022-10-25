@@ -1,0 +1,14 @@
+CREATE DATABASE `shoppingcartdb`;
+CREATE TABLE `shoppingcartdb`.`product`(
+	`id` VARCHAR(45) NOT NULL PRIMARY KEY,
+    `name` VARCHAR(45) NOT NULL,
+    `image` VARCHAR(100),
+    `price` DECIMAL(10)
+);
+
+INSERT INTO `shoppingcartdb`.`product` (`id`, `name`, `image`, `price`) VALUES ('po1', 'earphone', 'images/earphone.jpg', 500.0);
+INSERT INTO `shoppingcartdb`.`product` (`id`, `name`, `image`, `price`) VALUES ('po2', 'plush toys', 'images/plush toys.jpg', 300.0);
+INSERT INTO `shoppingcartdb`.`product` (`id`, `name`, `image`, `price`) VALUES ('po3', 'glass', 'images/glass.jpg', 240.0);
+INSERT INTO `shoppingcartdb`.`product` (`id`, `name`, `image`, `price`) VALUES ('po4', 'T-shirt', 'images/t-shirt.jpg', 520.0);
+INSERT INTO `shoppingcartdb`.`product` (`id`, `name`, `image`, `price`) VALUES ('po5', 'jeans', 'images/jeans.jpg', 1020.0);
+INSERT INTO `shoppingcartdb`.`product` (`id`, `name`, `image`, `price`) VALUES ('po6', 'belt', 'images/belt.jpg', 235.0);
